@@ -24,7 +24,6 @@ function fetchToys() {
 
 function createCard(json) {
   const collection = document.querySelector('div#toy-collection');
-  // for each toy
   for (const toy of json) {
     let newDiv = document.createElement('div')
     newDiv.className = "card"
