@@ -27,7 +27,7 @@ function createCard(json) {
   // for each toy
   for (const toy of json) {
     let newDiv = document.createElement('div')
-    newDiv.className = "card" 
+    newDiv.className = "card"
     createName(toy, newDiv)
     createPhoto(toy, newDiv)
     totalLikes(toy, newDiv)
